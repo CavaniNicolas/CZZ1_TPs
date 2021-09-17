@@ -1,0 +1,63 @@
+palette1
+255 183 138 //beige
+0 176 226 //bleuC
+226 43 32 //rouge
+33 172 15 //vert
+255 185 47 //jauneorange
+225 128 255 //violetC
+
+palette2
+0 0 0 //noir
+255 255 255 //blanc
+255 0 0 //rouge
+0 0 255 //bleu
+0 255 0 //vert
+255 255 0 //jaune
+
+palette3
+167 0 0 //jaune
+122 167 0 //bleuC
+103 136 150 //gris
+33 172 15 //vert
+122 143 0 //vertF
+165 94 0 //marron
+
+palette4
+255 126 0 //orange
+255 155 237 //rose
+116 115 115 //gris
+0 181 255 //bleu
+118 0 95 //violet
+255 211 36 //jaune
+
+palette5_1
+255 183 138 //beige
+255 255 0 //jauneC
+255 211 36 //jaune
+255 126 0 //orange
+255 74 47 //rouge
+167 0 0 //rougeF
+
+palette5_2
+138 210 255 //gris
+47 228 255 //bleuC1
+0 129 255 //bleuC2
+36 80 255 //bleuC3
+0 0 255 //bleuF
+0 167 167 //vert
+
+palette5_3
+125 162 255 //bleuC
+255 138 244 //roseC
+222 47 255 //roseF
+182 0 255 //violetC
+146 0 255 //violet
+119 0 167 //violetF
+
+palette6
+255 0 0 //rouge
+165 94 0 //marron
+116 115 115 //gris
+20 0 137 //bleu
+118 0 95 //violet
+226 123 32 //orange

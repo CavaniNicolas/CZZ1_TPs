@@ -1,0 +1,35 @@
+	C1_TP7, listechainée2
+	documentation by N. Cavani
+	Decembre 2019
+
+#ifndef LC2
+#define LC2
+/*Declaration_Fonctions*/
+
+// creer_liste()
+// In : Void
+// Out: Void
+liste_2pointeurs creer_liste();
+
+// ecrire_dans_la_liste()
+// In : liste_2pointeurs *
+// Out: Void
+void ecrire_dans_la_liste(liste_2pointeurs *);
+
+// inserer_char_dans_liste()
+// In : char *, liste_2pointeurs *
+// Out: Void
+void inserer_char_dans_liste(char *, liste_2pointeurs *);
+
+// afficher_listeTF()
+// In : liste_2pointeurs
+// Out: Void
+void afficher_listeTF(liste_2pointeurs);
+
+// liberer_liste()
+// In : liste_2pointeurs *
+// Out: Void
+void liberer_liste(liste_2pointeurs *);
+
+/*Fin_Declaration_Fonctions*/
+#endif
