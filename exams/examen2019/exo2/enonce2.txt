@@ -1,0 +1,26 @@
+EXERCICE 2 : recoder la commande UNIX wc et plus
+
+Vous allez écrire un programme qui permet de connaître le nombre de caractères, de mots et de lignes d'un texte donné.
+Le texte pourra être saisi au clavier ou lu dans un fichier.
+
+HYPOTHESES : les mots ne sont constitués que de lettres de A à Z (pas de chiffres) en majuscules. Tout autre symbole est un séparateur de mot. Un mot ne peut faire plus de TAILLE lettres (50 par exemple)
+
+Le texte "A, BC" contient 1 ligne, 5 caractères et deux mots.
+
+En dernière partie d'exercice, on mémorisera les mots déjà lus pour ne compter que les mots distincts.
+
+* Ecrire la fonction stats1() qui donne le nombre de caractères, de lignes et de mots de la chaine passée en paramètre
+
+* Ecrire la fonction lecture() qui permet de lire le fichier dont le nom est donné en paramètre. La fonction renvoie une chaine de caractères allouée dynamiquement. Vous pouvez utiliser la fonction taille_fichier() si besoin.
+
+La liste des mots rencontrés par l'algorithme de comptage est mémorisée dans un tableau de structures de type info. Pour chaque lettre, on donne le nombre de mots qui commencent par cette lettre, le nombre de mots distincts et un tableau des mots triés dans l'ordre lexicographique.
+
+* Compléter la structure pour que cela corresponde au test INITIALISER
+
+* Ecrire la fonction initialiser() pour que le tableau soit initialisé
+
+* Ecrire la fonction inserer() qui permet d'insérer le mot dans la liste des mots et vérifier que cela marche bien !
+
+* Ecrire la fonction stats2() qui prend une chaine de caracteres en paramètre, qui renvoie le nombre de caractères, le nombre de lignes et le nombre de mots et qui met à jour la liste de mots.
+
+* Ecrire les fonctions total_mots() et total_mots_distincts(). Les fonctions seront testées séparément à la correction.

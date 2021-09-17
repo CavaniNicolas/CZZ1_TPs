@@ -1,0 +1,20 @@
+EXERCICE 1 : le retour des nombres binaires (5 points)
+
+Vous allez coder quelques fonctions de manipulation des nombres binaires représentés sous la forme de chaines de caractères comme "1000010".
+
+* Ecrire la fonction init() qui met taille caractères de valeur donnée dans la chaine passée en paramètre
+
+* Ecrire la fonction inversion() qui inverse la chaine de caractères donnée en paramètre
+
+* Ecrire la fonction conversionb2d() qui convertit un nombre binaire donné dans une chaine de caractères en l'entier correspondant (on se contente d'un int pour l'examen, pas de long ou de unsigned int/long)
+Par exemple, "101" donne 5
+L'évaluation peut se faire de différentes manières :
+- on somme la décomposition des puissances de 2 = 101 = 1 * 4 + 0 * 2 + 1
+- on commence par le bit le plus à gauche et on se déplace vers la droite. A chaque nouveau bit, on mutliplie par 2 et on l'ajoute ... (1 * 2 + 0 ) * 2 + 1 -> 5
+NB : le parametre n'est pas modifiable
+
+* Ecrire la fonction conversiond2b() qui convertit un nombre décimal dans sa représentation binaire donnée par la chaine de caractères. L'algorithme classique est assez simple. Si nb est le nombre à convertir, il suffit de noter le reste de la division euclidienne de nb par 2 puis de diviser nb par 2 et ainsi de suite jusqu’à 0. Il ne faut pas oublier d'inverser la forme finale pour avoir le bon résultat.
+Par exemple,   13 donne  "1101"
+
+* Ecrire la fonction addition() qui permet de faire la somme binaire r = a + b où a et b sont deux nombres binaires.
+Les nombres n'ont pas forcément le même nombre de bits.
